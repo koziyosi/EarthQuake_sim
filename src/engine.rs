@@ -6,6 +6,7 @@ pub struct ObservationPoint {
     pub lat: f64,
     pub lon: f64,
     #[serde(rename = "type")]
+    #[allow(dead_code)]
     pub point_type: String,
 }
 
