@@ -1,0 +1,2552 @@
+[
+    {
+        "target": "Stage",
+        "type": "costume",
+        "name": "背景1",
+        "md5": "87ec29ad216c0074c731d581c7f40c39.svg"
+    },
+    {
+        "target": "Stage",
+        "type": "costume",
+        "name": "スクリーンショット 2026-02-25 204959",
+        "md5": "cf37f655d66cdec9577fd274594b364d.png"
+    },
+    {
+        "target": "実際の震源情報",
+        "type": "costume",
+        "name": "コスチューム1",
+        "md5": "576aeb8905e0b5685794e01ca28d417a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "0px",
+        "md5": "91223aa32e565265e90daf5e427a5795.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "360px",
+        "md5": "b550e07ee444fee76bb27623d07d32ca.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "震源地1",
+        "md5": "e9b0ab4b7e2e171913091445dcb98e64.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "震源地2",
+        "md5": "3559060304d5f3984e22ce50b2cf1f13.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "震源地3",
+        "md5": "d1b15e03393df1803cc14b7e5a1c4c9c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "日本地図1",
+        "md5": "781872ddec1ba92e09af1a5af831d6c9.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "日本地図2",
+        "md5": "43cdb667e71748d31b80e0d7ff59a3be.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "日本地図3",
+        "md5": "617ae84f3f47e9445f8a3abaf2d61937.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "日本地図4",
+        "md5": "352674cac90248414eb02073fdca3b89.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "日本地図5",
+        "md5": "377e53d77918d2c49ec36395e206560a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "日本地図6",
+        "md5": "032a0e03d676b24ba77cb662912a4d3d.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "日本地図1-2",
+        "md5": "28b9c7b9823fe847aa8673f3a1b24542.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "日本地図2-2",
+        "md5": "ae6814f567aa850d72d45c9ef10bb205.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "日本地図3-2",
+        "md5": "2d2bc5261abb8ec4fae088328a24bac4.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "日本地図4-2",
+        "md5": "7dad73138d5d8709e6aa4c09f6ac3f0b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "日本地図5-2",
+        "md5": "aeb6ada43d913b5632e73f147cdaf661.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "日本地図6-2",
+        "md5": "83dc207483afba3919e728c77b07f575.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "s",
+        "md5": "91223aa32e565265e90daf5e427a5795.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "s-1",
+        "md5": "91223aa32e565265e90daf5e427a5795.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "s0",
+        "md5": "8a3236d8c672a53afeeb3a7bce89e122.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "st0",
+        "md5": "a1e3f655ce01fc81b608d4b0cbbcc8b8.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "s1",
+        "md5": "df4578dfc4b8bb9e840d1a8566c61dc3.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "st1",
+        "md5": "dced3367228e278e6385e488927cc933.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "s2",
+        "md5": "6dc70a3bc5896f350bceb9381cf18b27.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "st2",
+        "md5": "99ce716c0d2cffd2953e60ae23e74ffa.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "s3",
+        "md5": "0f01a55307ba1e7e0ef245d39dd0c6a0.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "st3",
+        "md5": "55f5ec858a84f8cdfe72f6e2e1c60389.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "s4",
+        "md5": "f5e097e9112667262763096fa9ea1b92.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "st4",
+        "md5": "cd19d0b611e04586b214220e2be8c62e.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "s5",
+        "md5": "9fb5f5f9abffdd28b6f0556f206b16fc.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "st5",
+        "md5": "683bfc01592788fb79e99c8b9c29ef93.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "s6",
+        "md5": "bb33e22a383ac22e3c54b16339e22ccf.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "st6",
+        "md5": "ca0ea8430e8493f401afce3c2c75fe89.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "s7",
+        "md5": "8ccc46b8cc204074dcce5aa763309747.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "st7",
+        "md5": "50c1b8a2e127a437481f73e605d4156b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "s8",
+        "md5": "7959d039a9a68806638d03ba988e20c1.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "st8",
+        "md5": "6201b9f3cacbe87a5f760cf630eb7cc9.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "s9",
+        "md5": "553088e72421d9d3bb506074a6de99f3.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "st9",
+        "md5": "a12fe610f86ea6754226354414067312.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "t0",
+        "md5": "91223aa32e565265e90daf5e427a5795.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "t1",
+        "md5": "7ab05100f4a1b7d3b5ae81672ff0490a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "t2",
+        "md5": "d2f53c72f88987e2b82c2dd60afb5b8b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "t3",
+        "md5": "4ab87e0d63b86d2397348a9029dfdd1c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "t4",
+        "md5": "5e02a9a8f4828e81e3eb6d7760e8a4d1.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "t5",
+        "md5": "e470f382048d1436b626db875911573c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "t6",
+        "md5": "b748a8fdae96729d77cbe934f4337f66.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "t7",
+        "md5": "72a68b44bd5dcccf649160c54dd79836.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "t8",
+        "md5": "c31ef2648a8368b33cbc941c9959f202.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "t9",
+        "md5": "223713adda882f046940e6864220319a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "t10",
+        "md5": "91223aa32e565265e90daf5e427a5795.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "t11",
+        "md5": "4dec7a8eba1db81f6d49a97877413ec5.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "t12",
+        "md5": "df60d4e8ed6c9e263aaf0a11cc46cd8a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "t13",
+        "md5": "6654c1298dd29f53d38148299b6e63cb.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "t14",
+        "md5": "7001afec27903b6e269cc07b24c983ab.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc100",
+        "md5": "bd480fb021b10608273df2df399db279.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc101",
+        "md5": "691a18494c8c72ff680d98f3926d4c25.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc102",
+        "md5": "24f0bafbc9e16e6000ece46a008c271a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc105",
+        "md5": "86df885f60a967665faff0fda4cd9d6b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc106",
+        "md5": "0caab91e769b6958f606e2e215dce6b6.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc2",
+        "md5": "0caab91e769b6958f606e2e215dce6b6.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc107",
+        "md5": "bf9b6b513443f756df3e48d9fdde2184.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc110",
+        "md5": "cf6c531f17be24e85e85a2d9582cb57e.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc115",
+        "md5": "0f87a32841eecf01a292de69bc44b48b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc116",
+        "md5": "3c10d5d61828604e129bc4e608c7203c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc117",
+        "md5": "a4fbf4e6ef2600caf26f1692cc3cf538.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc119",
+        "md5": "f78cbb2e145ae6dd9d01023abfb0c1b3.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc120",
+        "md5": "c10809481aa4ae7f53c07117c6ae1cad.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc121",
+        "md5": "ff50278d87afe0208ce7b03914377e3c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc122",
+        "md5": "688ddb734983f08aafd77c466a40dc0d.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc125",
+        "md5": "436d0b5ceb5a060ccec2e4dbdf6e399a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc126",
+        "md5": "df001917b66bc4f6085224bd8e3b0635.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc127",
+        "md5": "066ee6960832b58c647fee9fb64294c3.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc130",
+        "md5": "d4d2ac6b6e8f3bf99792ece9c1a6f7f8.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc131",
+        "md5": "6ac22ec72ea094570ddc1934ad1a6ab7.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc135",
+        "md5": "8bb6ba503b28cc415177d978fa5a19dd.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc136",
+        "md5": "7b8d0df6f5b452374cf7b4e6f521229c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc139",
+        "md5": "02ee20f1f68c726018c7349fe5af8a52.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc140",
+        "md5": "cfbef327186ffa96289d63ee0bc4b632.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc141",
+        "md5": "26275cdd48479793fc50d3ad09386bb4.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc142",
+        "md5": "6aef8187c142ce1b58980e667f2cc0a2.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc145",
+        "md5": "726624f1317b3dac00d84006fd552ab4.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc146",
+        "md5": "18596c6765ec2cc5885dc61b58475e9e.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc150",
+        "md5": "a70c05fb535a6c44aaa0dedc23dde1be.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc151",
+        "md5": "745181ff56820aebe61a0540334ad4ad.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc152",
+        "md5": "79321eb2f6712c6cb36b7c686fe82ecc.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc155",
+        "md5": "3c5b2090d80d8267c957abdaab79f024.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc156",
+        "md5": "68a22501826c23fa8d3807283766fcaa.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc157",
+        "md5": "0b1d332bb692da6db7724c8370847f5e.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc160",
+        "md5": "152c12d7fa66dbb1df053dfe085239ce.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc161",
+        "md5": "38cd2bc5cbbf33de0c584aa95ce118ea.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc165",
+        "md5": "894aad46547a3a33b9c44d9b3f22e084.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc166",
+        "md5": "987103321f58b8cfad11e4f12ddfeec2.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc167",
+        "md5": "a815356269baf67e1fc28160df1d9fb2.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc200",
+        "md5": "83681f2fa393193ab70c166bbcdf3299.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc201",
+        "md5": "e3dec23bf02b543e1a2a42618632220f.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc202",
+        "md5": "f98aa858dcb41418a9e5cb50d6cf1673.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc203",
+        "md5": "e8f828b541a07347ba6ed6c0b67afc14.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc210",
+        "md5": "6cf3fd4eee6c9dc8a77efe5cfe4bc78e.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc211",
+        "md5": "1ea7420cddb2e028fdcbd0d43849910e.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc212",
+        "md5": "4811f9b5fe58500fca0bf774eb7c7582.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc213",
+        "md5": "1a94dfdc5e6560135be2591bc6e6e744.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc220",
+        "md5": "dce9864d139b2f1f58aad5826253d36a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc221",
+        "md5": "d9e9b8df2646bae143627ef2ba6edd41.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc222",
+        "md5": "178f839ec523021f4e504e95a39cac9f.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc230",
+        "md5": "3e945a6895ad790792bcdd448d016b78.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc231",
+        "md5": "65cdcf1b0e9b48580642a232042d8f70.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc232",
+        "md5": "8aae003e3dc6ae0201ca06bc0ca9dfc7.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc233",
+        "md5": "d53c02a1c0d71380674e8773436d388e.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc240",
+        "md5": "d940aff7162d146f7cfc262761da6a8f.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc241",
+        "md5": "32e5b83e94f387265cfc202985db44fc.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc242",
+        "md5": "c15b5260c67e9c141360e1ad3561d9b8.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc243",
+        "md5": "1f38adee89841dbd1cb815375b78d83c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc250",
+        "md5": "5930980129eb1b8a2361760630424962.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc251",
+        "md5": "34fc7b53371019f14d610cdece49c926.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc252",
+        "md5": "ad99642ac89f12cf632f845e7f959b9e.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc300",
+        "md5": "0e3498eb99cf032b4f6e54ff08fec09b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc301",
+        "md5": "92b66859b0f8fe4b8dbd1744b3b2ad92.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc310",
+        "md5": "b3ccfe82b733ba2aab168100827ad6aa.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc311",
+        "md5": "11167a6643091e7e8bec8d70e9d95ecf.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc320",
+        "md5": "9104990b5fa9211e852edd0b1703cbed.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc321",
+        "md5": "a1cba7b99ce48b170bf0a70d80ff7fa0.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc330",
+        "md5": "7bf9d6ba8016ace1b5647b60e51929ca.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc331",
+        "md5": "c4d14abe23743d785134f6ca8a5827e3.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc332",
+        "md5": "417311af82b0e1a783d769db5b33b8b7.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc340",
+        "md5": "affe5ef9a0018eae118bd42efdaab046.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc341",
+        "md5": "b1ace6248ba3cfa3f6756193a044792c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc342",
+        "md5": "a07f973637f129025f9d57e4cb04e1a2.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc350",
+        "md5": "93e88f04aefeec2123835029800be4a3.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc351",
+        "md5": "3fa693ed0ef7e3e529fa8c9ab04ba038.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc352",
+        "md5": "b52bd2d5e9745420d9316dee827231e2.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc354",
+        "md5": "f9d208c0210699f507c67dae01d01122.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc355",
+        "md5": "5e5d33efb41f9c0a6ca053f10f7d70a2.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc356",
+        "md5": "55b253a8b9ac8b525dfce2a238dfb44c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc357",
+        "md5": "41cf2f33a0a3704a15f4a1bbb6f024cd.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc358",
+        "md5": "4aebf6a2e92178cd6f7c7d406b871889.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc359",
+        "md5": "e47d1592280d34a91269b1dd85617e49.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc360",
+        "md5": "e77f8135df3530a72b9627d8c18c218b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc361",
+        "md5": "a5ea81342ab164d590af315933443091.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc370",
+        "md5": "146809e0666ce33579cf8ab690ba2051.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc371",
+        "md5": "c7bf4154650a686ac30d64f1a65892c1.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc372",
+        "md5": "04bcfee7f642a931d2e736e01ae18db8.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc375",
+        "md5": "cea9ddc2fa66c5b59904a2ceaf4341f8.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc380",
+        "md5": "8daf5d31c7b8f8ac6ba663f11deb08f0.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc381",
+        "md5": "a9689d46855e4461b01173523b7182fe.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc390",
+        "md5": "2d154112a2e26c90c9a6080b8d12496a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc391",
+        "md5": "f50e1bb6ceae8c40b70b617b7db347f4.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc400",
+        "md5": "3eb240e350641939dd4468ff6e018833.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc401",
+        "md5": "c028eaa6026d95d8fadbcefc6e1b5618.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc411",
+        "md5": "0e1d21658e1d3fa9e5846fd685033b1c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc412",
+        "md5": "295f29e33bfb380b028ae8d6aef34799.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc420",
+        "md5": "d9d283c9f9d6d9e8889aa0447c1c82c8.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc421",
+        "md5": "5e4597a39503b2198afc8e81bb7f17a6.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc422",
+        "md5": "dcd9048fe9f02701dd3afac875779c35.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc430",
+        "md5": "74658d46010ace32788690381af84f1a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc431",
+        "md5": "17cc6fff0506d226406554ad369cbf4b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc432",
+        "md5": "8adb9bff68aab6b95b3facf79ac038a2.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc440",
+        "md5": "6955c3d62abe2aa48c93dfca2d150e5e.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc441",
+        "md5": "eaa6402af21242c7dc521d484ff05289.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc442",
+        "md5": "aeb77ab5f426ebd5da2d7a8163712660.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc443",
+        "md5": "ebf39a4cfba14e6f8b5362ce63f12dfd.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc450",
+        "md5": "ebea38e28a8d28e5cd39cc64cf5ba0a1.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc451",
+        "md5": "b5aa2ebdcb2578565848ac4670f8824f.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc460",
+        "md5": "816ad8dd7ca899ff211bb80c751aee74.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc461",
+        "md5": "5f35a7d6676601f67e070988ae585038.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc462",
+        "md5": "c8373636469acc37ab80783c6f3ec300.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc500",
+        "md5": "cab49490813ea506476121b185e946c3.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc501",
+        "md5": "ee16f8a0dba76bee086313d4d75d88a8.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc510",
+        "md5": "67692f959e6db680192bbac6d32b2b86.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc511",
+        "md5": "947a0e41fe1e764ec87ea5a04394406b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc520",
+        "md5": "3fa105787f5ef8cacf8c54982a722d1d.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc521",
+        "md5": "f4eb2b3eb1fe8210b0c491128a1edc61.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc530",
+        "md5": "de4a6d11897a223d5bc3ba7aed29b029.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc531",
+        "md5": "f91a09fb6b61bfd1eaf5a611fecc7e5c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc532",
+        "md5": "246790e83d1b3c19ae7a183ebe341127.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc535",
+        "md5": "3f008abb34f818d3fde2a904d8d059a9.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc540",
+        "md5": "1c9c1e68e89b026a635669b2096160aa.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc550",
+        "md5": "0b22a8ece394b521c7413169acd26401.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc551",
+        "md5": "3178ccecd365e11e6aa905de176b3127.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc560",
+        "md5": "f62498402c2520ac54b33e055903e772.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc562",
+        "md5": "99ef3854a334b6ff166f6d00a7aa5b20.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc563",
+        "md5": "97d8d9e7013bfb75bf0d40edcabfe63e.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc570",
+        "md5": "51c8072b7be1373ff8a265c9a04fb6de.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc571",
+        "md5": "e4c0dfb79759d86aa501b45453f5ea0c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc575",
+        "md5": "4f81c80e5e42d80941b0d280d82f7ca0.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc580",
+        "md5": "3758419490cb86d209bab59a23734216.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc581",
+        "md5": "3c4755a48eb6f18e0d3465e5f2681b1c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc590",
+        "md5": "c56668846a1d7e010a683ca1067a5042.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc591",
+        "md5": "48d571f5cce77469b798bf3d6b9f0093.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc592",
+        "md5": "7ed8c7a151a6b5a605981b53e949fa86.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc600",
+        "md5": "044d4a549e4002a7f834d61f6a3f2a32.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc601",
+        "md5": "6ecd027437501fc720ceb17efb1e613f.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc610",
+        "md5": "7d54e42f57ff803d3abc7c78197feff7.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc611",
+        "md5": "37dce5f673d44ed021fc5bc31fd3fbd7.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc620",
+        "md5": "7a9efc0ec7e38816962b9dee1dd8eb18.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc621",
+        "md5": "f47dd764199156ebe93efa7b467e331a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc622",
+        "md5": "b99dcc685ded005d332ef3e64c6bad0a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc630",
+        "md5": "6f95f3e70914566bd6ff8d69e8aa19e2.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc631",
+        "md5": "2a71e63b8f04d67beb83b0883621cc60.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc632",
+        "md5": "8db2ae3f14f3e7eb4c2f769b57d738bf.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc700",
+        "md5": "806a1e4b0b20b3f6706ffd912d6ef5a5.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc702",
+        "md5": "5a144f7842bdda3327bfb97fa5bf3e5d.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc703",
+        "md5": "ca3dcfd78fbf633a9a98b0277e61c4fa.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc704",
+        "md5": "afe7baa010cb999d15ee7cd4973a2ae8.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc710",
+        "md5": "b0b177a5251ef5b4ba64ceb05000382f.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc711",
+        "md5": "7f5a67a6a3f1a3e6b42a9f2b8e234566.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc712",
+        "md5": "bb28f78f41846b99f890f074abfb8c83.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc713",
+        "md5": "a3637c0dc8c7136891fcd5d3af001a0c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc720",
+        "md5": "cb2f90c7c0aac91036ff87d00e0bdef6.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc721",
+        "md5": "ff0812f6b7d324ff650c0d43f0306130.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc730",
+        "md5": "1e6a3a1d538967b4fab52e8fca6080c6.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc731",
+        "md5": "ceb9d24a3d1f4c480ff44e8d36276f32.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc732",
+        "md5": "e3702d37a08942b0bbac53b70ebaa8f6.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc735",
+        "md5": "0990a9f2c7a9585300a8a4f4ec954570.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc736",
+        "md5": "040eff76bf6a5289e1492cf2dd023ac1.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc737",
+        "md5": "6950249a2a6e6ab24e9d1389fc4a7282.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc740",
+        "md5": "c5df0cb6aba4276cdd12684da307e52d.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc741",
+        "md5": "0aba5f13983af8afbd646f356dd9ab40.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc742",
+        "md5": "075be3be8c31fdf4bf8cf39cfb92ad39.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc743",
+        "md5": "ca39215d11b11fe2a93a9906322dfa8e.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc750",
+        "md5": "28e9c40325ad4816f3fbadec23e70b87.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc751",
+        "md5": "16fee910bd50c4e5340bcf56ee9aeb11.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc752",
+        "md5": "e6c2495a19a5926f09bf91613a23fe86.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc753",
+        "md5": "f56344de92c7302efbf536c57c60a712.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc760",
+        "md5": "7422f789b2300f3fdfbcc1b41043391d.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc761",
+        "md5": "0103f3789bf7a429c996b0901bd0f4bd.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc762",
+        "md5": "2995429885881fc187349b575e7446d7.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc763",
+        "md5": "d33294bc3a6c34de7fbb8657e47497db.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc770",
+        "md5": "24db5755fe1a00eee4232587741386f2.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc771",
+        "md5": "69268f90c7d44a95dbd0f748db735409.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc774",
+        "md5": "357b3f64416f763da23e8e73ffd6174b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc775",
+        "md5": "4bf18c400ebb9c9a45e0e54171e27b11.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc776",
+        "md5": "364934450133c390432f0f1d5e037e8e.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc777",
+        "md5": "74e5826c027da1c0d67845e694858a9c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc778",
+        "md5": "a6d3a1051ff22cb68c4d010c6521465b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc779",
+        "md5": "4f18e4625e44647d1117a8a157ce9e73.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc800",
+        "md5": "d2ea2effd50577b8b4749332ac832214.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc801",
+        "md5": "68bdbd744fb033eab762d7752bedce36.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc802",
+        "md5": "b3818941959ab427360b248d83342264.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc803",
+        "md5": "e5982f58068d4b12471cc121b7b9dfcb.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc804",
+        "md5": "dcb1ea1c6ed9501abfb41cb6ecf088a4.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc805",
+        "md5": "17ba8108bd5807b680fb3b7c69f6a694.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc806",
+        "md5": "7d95eea1ee5abebf0f07c54eb08b786a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "nc807",
+        "md5": "7d16ed2ca98d4b4ef124b428cb60a027.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu1",
+        "md5": "b2d25fb35f1266c655019f10d5b72893.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu2",
+        "md5": "77166788bbbb66705c2c15cf7737d390.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu3",
+        "md5": "315d3d5ea468818e8a8af54cf35dc775.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu4",
+        "md5": "2469710d50ac992b377b626a1965b985.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu5",
+        "md5": "07d2776317e4e4f7c08f1b49471e6cf4.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu6",
+        "md5": "8a282bad71aa7c3ea8ea1008bc33c1d2.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu7",
+        "md5": "4ef68671cacf1b47be37c2695969db65.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu8",
+        "md5": "85a26caf6e3f8dded1da82a991e44ce6.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu9",
+        "md5": "a473905b3620a8d2898dad17604148c7.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu10",
+        "md5": "6a02ed9b86a8fbff94c3595913619964.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu11",
+        "md5": "a6f6ccc76dd53d6d6fdd5fe26e61c3f1.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu12",
+        "md5": "76edad561fee6d8301cfdd65f33f7570.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu13",
+        "md5": "3ed50d72f8fae094ee34c955c3272c77.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu14",
+        "md5": "a9d66f389f130e7006ec4b8e7665552a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu15",
+        "md5": "e7761e4665471c3f2948bbe0ec32e41c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu16",
+        "md5": "9bbed5ba1b733bd91445e5678481cace.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu17",
+        "md5": "182a4668c88f222ffcd74412e4c790fe.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu18",
+        "md5": "699f699409733e0d11e1d29e498c8aac.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu19",
+        "md5": "fa4a82133a2caf5a97ec97ebc72e7c3c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu20",
+        "md5": "1ca0d9a7c45c89f5161ee5f9bea1ab7c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu21",
+        "md5": "10cb07103a55eae9f8d16a6089b019ea.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu22",
+        "md5": "b622101d5debb397920033e00204e16a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu23",
+        "md5": "83ad111428371e35fe33376f9a0e5212.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu24",
+        "md5": "37dff96687e19249963800832ba9252e.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu25",
+        "md5": "39db10730c321eed80bbd282cce80c26.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu26",
+        "md5": "4dcbc197df53e006589b7dbf592e3463.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu27",
+        "md5": "0fd58235ff102b2973c42392c971a86c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu28",
+        "md5": "935e3398f63d712148f9b69a39d706c4.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu29",
+        "md5": "6cd65087e9432af7abefba6af7e65333.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu30",
+        "md5": "3ccb751f7a1a270e2b5d6a052a369f11.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu31",
+        "md5": "ca919ae9f16f37692a4277f53f2eb3ba.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu32",
+        "md5": "6460fb3c494cb65b90af1211a2f25543.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu33",
+        "md5": "1456424fe69aac19e6c0c571a506b0c7.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu34",
+        "md5": "616925760e46181bc65a52bbf4c6a00a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu35",
+        "md5": "6c0913220de408642f024d88d961a48d.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu36",
+        "md5": "760fa7002916049bc77d1936fe5232f7.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu37",
+        "md5": "62f5f052880480428479efeef4372a61.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu38",
+        "md5": "6e109ddac0bd070d0b4ce905b99b316a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu39",
+        "md5": "7d0691c5759e61d3d58cecd06e4ea6ec.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu40",
+        "md5": "284c8e108a824c591d5302940bdac166.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu41",
+        "md5": "54b351dec907a7285024af0b5fba46e1.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu42",
+        "md5": "351f3393c0539f22930c9d03f44ca023.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu43",
+        "md5": "db6ac3de3e9857be954dbbce960d8a2b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu44",
+        "md5": "aed5400fa57e5f92ae82bc3b44d3283b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu45",
+        "md5": "b198ac50a6e702625e367844b802a9ff.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu46",
+        "md5": "806c211a9636cce3b12463490c26d8ff.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu47",
+        "md5": "20fabba4cc1f873a6e06cc13068df78c.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu48",
+        "md5": "ce4eedf4f1a33a5c4717cb2ac73ebf73.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu49",
+        "md5": "6e2cc52a8ce685f045f1375e944c8ef4.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu50",
+        "md5": "09247fd35e97061e1505abf628ff6a9b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu51",
+        "md5": "5344d2ed1a50e3c56c38f6421a50bca5.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu52",
+        "md5": "2a9ab9e11fb0527f0545c43fc9507001.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu53",
+        "md5": "03e6f41f0115606fe3c8bdab3e103c4b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu54",
+        "md5": "ac8ab1cb72cf1c4f27e80684a2af964a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu55",
+        "md5": "3ce3c6fb57f0b7d116898c1a664cd3b6.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu56",
+        "md5": "42e42ce84da038853a42830a28b54406.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu57",
+        "md5": "285c6a2abaf056b822402ddf5d0ccc1a.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu58",
+        "md5": "c8a576f649af1987de7cc0738225e53f.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu59",
+        "md5": "0bab472b14a2be3b7b7e8522407a14f9.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu60",
+        "md5": "196310cdfa58fb8b1a8de017bb25eb02.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu61",
+        "md5": "68c3c1a548dd3441b513d28ddc1666b8.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu62",
+        "md5": "0e7a39d6d430f040ae49eb2cc9f620a2.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu63",
+        "md5": "7c346092237fb2f1215d282d622e8171.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu64",
+        "md5": "c974faedb8192db5ec2211e92fa73e6d.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu65",
+        "md5": "3c6cd81c8f861683bbd94ff6f48d9213.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "tsu66",
+        "md5": "6122b9d1b8cc99ebee3c700e4c3dd20e.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "wlg00",
+        "md5": "2510eff590efa45721f0a846e58b0e4f.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "wlg01",
+        "md5": "1d2b9160a3caaffd4eac6869ab1a1172.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "wlg10",
+        "md5": "cbbb2d2bcaa4c59b983858f83fa2493b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "wlg11",
+        "md5": "76aeb164d9c9c785ab9f068c3c68665b.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "outsvg00",
+        "md5": "b3d0d5925c51dff171088daf98b936c8.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "outsvg01",
+        "md5": "3550d170fc07d9391ce7e081a0874dc6.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "outsvg10",
+        "md5": "f9775730877ad5fdbefc6bc735497fa4.svg"
+    },
+    {
+        "target": "地図",
+        "type": "costume",
+        "name": "outsvg11",
+        "md5": "3d93c4461d057db7aab5aa15ec41c175.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y0-1-1",
+        "md5": "5d4f3410c1b41cf5de224199d932d256.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y0-1-2",
+        "md5": "4b816a6eafa6d3010ebe7572025f717b.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y0-1-3",
+        "md5": "1682003d3fbbcf786edcbe19b2af6054.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y0-1-3-1",
+        "md5": "b10c07cb4760b924581701bb075fe1d4.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y0-1-3-2",
+        "md5": "83ed86839d4a2e6395be2facca994d18.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y0-1-3-3",
+        "md5": "3280e3d3b4d73b9ccb4e47eec79dabba.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y0-1-3-4",
+        "md5": "ff9f99ec15cc708dd48b37743fc8a72a.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y0-1-4",
+        "md5": "ac8aa410d8a50a131065f3e6c9c7ea3b.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y0",
+        "md5": "dcfa753312cff40317b5e584e220be8e.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y1",
+        "md5": "dde7da14fae9a2b65b4b3c63e1fd0efe.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "yt1",
+        "md5": "3d376ba90e090447be176f32bf8a60c9.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y2",
+        "md5": "e449b9dd2b3837ae6d6118032a941b09.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "yt2",
+        "md5": "044d54b5b6db41ea0deb54b14551858a.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y3",
+        "md5": "8d020a67c952baf989f7a0ee504317a5.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "yt3",
+        "md5": "2491e28bcaab7a84cbd0278f43c40b25.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y4",
+        "md5": "c2b1b179385bf5095667bc2aa2804e29.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "yt4",
+        "md5": "342ca0de78d77bb2fc3c65cdd752f247.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y5",
+        "md5": "fe475e429960d272e5b972717737837e.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y6",
+        "md5": "cb73b037f1ed8fb4632b2cd3651e2b72.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y7",
+        "md5": "9f6a640a4a9b564f8771cceb98fc6b5c.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y8",
+        "md5": "0bcf6449a3f14d4dff749ef245b01c85.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y9",
+        "md5": "3c8adcffba936a31b36e64f0dd0599b4.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y10",
+        "md5": "560bb7ef897faa01d72fab15d045460f.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "y11",
+        "md5": "e2fad4464bace185171455bcdd2d3a35.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "su0",
+        "md5": "c5f59eca40c19ab88de6e307b792c5d5.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "su1",
+        "md5": "aef606bda8cb106cb5b14e6e6c7f7719.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "su2",
+        "md5": "f99f2fdc07f598d28461a846ee502a44.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "su3",
+        "md5": "c805909222f3d15a0b6878f7e1b207a4.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "su4",
+        "md5": "52b9579324c126dff44c52c4a0742fc5.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "su5",
+        "md5": "b039e29e119f48c26d3c3a97010ac0db.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "su6",
+        "md5": "ba7ae3611fe860a0cdda92b9429750f2.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "su7",
+        "md5": "750716d3b9f87ac12d739ae6ac36b0dd.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "su8",
+        "md5": "9df491868063607922c668818ae78e3d.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "su9",
+        "md5": "dbc58bc97d76509ee774a02dc9f574f4.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "su.",
+        "md5": "371ea952a2cfda51dd2f40ce1214c8d3.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "suM",
+        "md5": "308d897333b8ebb4ca919db610f63bea.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "suk",
+        "md5": "117771ecd4e0cb6c193acd0c245b6068.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "suご",
+        "md5": "76eb557d42f661baabd357c61cbed87a.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "su#",
+        "md5": "337410baa25552a8aa3e1970643526f8.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "su終",
+        "md5": "8fa2336e16f3be97a57c28c189caa1ca.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "su　",
+        "md5": "91223aa32e565265e90daf5e427a5795.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "jikan",
+        "md5": "521383068172b97da6f91bf2146d7ca4.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "kettei",
+        "md5": "ddae5a4ebf43eb44bf3d4bb38a443105.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "C1",
+        "md5": "31c3c510cdd18c3520a545c6892ae5a9.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "C2",
+        "md5": "cbd1c53c92212ca99750f853c8fa79d7.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "C3",
+        "md5": "6fb0679deac81f32a5c392057fbc5a19.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "C4",
+        "md5": "1696df87343a8d96e309c5157ce07538.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "C5",
+        "md5": "bfc9548a422f099850292b3c9796af7e.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "C6",
+        "md5": "1b31039ab0e41bb301b2a2aa02d9123c.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "C7",
+        "md5": "680982081e4783d1ec768f58a4a4ba6b.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "iti",
+        "md5": "e4b66eaf199347e9f232f6ac8a4a93c7.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "+",
+        "md5": "46b878c5c4cdd41de866a9286bf1c61d.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "-",
+        "md5": "15d66e9f7e76c18e9e28491cfe1de9f4.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "se",
+        "md5": "54ac106bc87f0f476f92ada46e29ea15.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "TA1",
+        "md5": "4570b3fb15224ce362a2dd7f22407c80.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "TA2",
+        "md5": "0d433a1f735ab5acea42fb17a36d8fae.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "TA3",
+        "md5": "c8e1dd2c17ab37d153d16f9c108c568f.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "se2",
+        "md5": "f741d666b48b60e8299af5be727692bf.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "J",
+        "md5": "0b0f9d52d438253676f7941245d9765b.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "ONOFF0",
+        "md5": "8748f0bf48bee3583586c98a765f4dfb.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "ONOFF0-1",
+        "md5": "0691e49388d29103cd8249b74b1a9aab.svg"
+    },
+    {
+        "target": "UI",
+        "type": "costume",
+        "name": "ONOFF1",
+        "md5": "36ac3171a51fd36fe92d6221ccef4733.svg"
+    },
+    {
+        "target": "疑似気象庁1（震源情報系）",
+        "type": "costume",
+        "name": "1",
+        "md5": "576aeb8905e0b5685794e01ca28d417a.svg"
+    },
+    {
+        "target": "疑似気象庁1（震源情報系）",
+        "type": "sound",
+        "name": "警報",
+        "md5": "5fac8e1afab5aa7f0c4597fef164fd10.mp3"
+    },
+    {
+        "target": "疑似気象庁1（震源情報系）",
+        "type": "sound",
+        "name": "震度三以上",
+        "md5": "159244e8557e16cb7a8a88386ac566b6.mp3"
+    },
+    {
+        "target": "疑似気象庁1（震源情報系）",
+        "type": "sound",
+        "name": "更新",
+        "md5": "a9c826ea89ac2745d409a775b8fb8c99.mp3"
+    },
+    {
+        "target": "疑似気象庁1（震源情報系）",
+        "type": "sound",
+        "name": "最終報",
+        "md5": "1e79cf503994fbc4b07e6807d98402e5.mp3"
+    },
+    {
+        "target": "疑似気象庁1（震源情報系）",
+        "type": "sound",
+        "name": "EEW",
+        "md5": "697cbc9cfa2c83151f4d7d4ce5ffebe7.wav"
+    },
+    {
+        "target": "疑似気象庁1（震源情報系）",
+        "type": "sound",
+        "name": "pr",
+        "md5": "93869d8ebb339512a2373392cb43cf30.mp3"
+    },
+    {
+        "target": "疑似気象庁1（震源情報系）",
+        "type": "sound",
+        "name": "大津波警報",
+        "md5": "3943b1a91e99f2558a3325ccb39ba22d.mp3"
+    },
+    {
+        "target": "疑似気象庁1（震源情報系）",
+        "type": "sound",
+        "name": "津波警報",
+        "md5": "7c9101278fbdb29bd4898a97e572ddd0.mp3"
+    },
+    {
+        "target": "疑似気象庁1（震源情報系）",
+        "type": "sound",
+        "name": "津波注意報",
+        "md5": "d62b399771370726d752255c0a040dd3.mp3"
+    },
+    {
+        "target": "疑似気象庁1（震源情報系）",
+        "type": "sound",
+        "name": "津波予報",
+        "md5": "ca1a590531afaf99ced3e6fff476fbf8.mp3"
+    },
+    {
+        "target": "疑似気象庁1（震源情報系）",
+        "type": "sound",
+        "name": "地震情報",
+        "md5": "1dce89e5d43f35a046185486de4faef5.mp3"
+    },
+    {
+        "target": "疑似気象庁1（震源情報系）",
+        "type": "sound",
+        "name": "震度速報",
+        "md5": "20ba4384644a9e9b98f675538863773b.mp3"
+    },
+    {
+        "target": "疑似気象庁1（震源情報系）",
+        "type": "sound",
+        "name": "震源情報",
+        "md5": "a5aedae453531d5eb52c0b19940f3769.mp3"
+    },
+    {
+        "target": "疑似気象庁1（震源情報系）",
+        "type": "sound",
+        "name": "キャンセル",
+        "md5": "de4a2891767d3ef4567355631d943700.wav"
+    },
+    {
+        "target": "疑似気象庁（緊急地震速報）",
+        "type": "costume",
+        "name": "1",
+        "md5": "576aeb8905e0b5685794e01ca28d417a.svg"
+    },
+    {
+        "target": "疑似気象庁（緊急地震速報）",
+        "type": "sound",
+        "name": "警報",
+        "md5": "5fac8e1afab5aa7f0c4597fef164fd10.mp3"
+    },
+    {
+        "target": "疑似気象庁（緊急地震速報）",
+        "type": "sound",
+        "name": "震度三以上",
+        "md5": "159244e8557e16cb7a8a88386ac566b6.mp3"
+    },
+    {
+        "target": "疑似気象庁（緊急地震速報）",
+        "type": "sound",
+        "name": "更新",
+        "md5": "a9c826ea89ac2745d409a775b8fb8c99.mp3"
+    },
+    {
+        "target": "疑似気象庁（緊急地震速報）",
+        "type": "sound",
+        "name": "最終報",
+        "md5": "1e79cf503994fbc4b07e6807d98402e5.mp3"
+    },
+    {
+        "target": "疑似気象庁（緊急地震速報）",
+        "type": "sound",
+        "name": "EEW",
+        "md5": "697cbc9cfa2c83151f4d7d4ce5ffebe7.wav"
+    },
+    {
+        "target": "疑似気象庁（緊急地震速報）",
+        "type": "sound",
+        "name": "pr",
+        "md5": "93869d8ebb339512a2373392cb43cf30.mp3"
+    },
+    {
+        "target": "疑似気象庁（緊急地震速報）",
+        "type": "sound",
+        "name": "大津波警報",
+        "md5": "3943b1a91e99f2558a3325ccb39ba22d.mp3"
+    },
+    {
+        "target": "疑似気象庁（緊急地震速報）",
+        "type": "sound",
+        "name": "津波警報",
+        "md5": "7c9101278fbdb29bd4898a97e572ddd0.mp3"
+    },
+    {
+        "target": "疑似気象庁（緊急地震速報）",
+        "type": "sound",
+        "name": "津波注意報",
+        "md5": "d62b399771370726d752255c0a040dd3.mp3"
+    },
+    {
+        "target": "疑似気象庁（緊急地震速報）",
+        "type": "sound",
+        "name": "津波予報",
+        "md5": "ca1a590531afaf99ced3e6fff476fbf8.mp3"
+    },
+    {
+        "target": "疑似気象庁（緊急地震速報）",
+        "type": "sound",
+        "name": "地震情報",
+        "md5": "1dce89e5d43f35a046185486de4faef5.mp3"
+    },
+    {
+        "target": "疑似気象庁（緊急地震速報）",
+        "type": "sound",
+        "name": "震度速報",
+        "md5": "20ba4384644a9e9b98f675538863773b.mp3"
+    },
+    {
+        "target": "疑似気象庁（緊急地震速報）",
+        "type": "sound",
+        "name": "震源情報",
+        "md5": "a5aedae453531d5eb52c0b19940f3769.mp3"
+    },
+    {
+        "target": "疑似気象庁（緊急地震速報）",
+        "type": "sound",
+        "name": "キャンセル",
+        "md5": "de4a2891767d3ef4567355631d943700.wav"
+    },
+    {
+        "target": "疑似防災科研",
+        "type": "costume",
+        "name": "コスチューム1",
+        "md5": "576aeb8905e0b5685794e01ca28d417a.svg"
+    },
+    {
+        "target": "疑似防災科研",
+        "type": "sound",
+        "name": "newShi0",
+        "md5": "efebee98aaeb5710c6c52c0f1bcb318c.wav"
+    },
+    {
+        "target": "疑似防災科研",
+        "type": "sound",
+        "name": "newShi1",
+        "md5": "ff87f6103b04410f0e35ccad1c86e46f.wav"
+    },
+    {
+        "target": "疑似防災科研",
+        "type": "sound",
+        "name": "newShi2",
+        "md5": "55d2175d7def4fce369b5d2b3f07dccd.wav"
+    },
+    {
+        "target": "疑似防災科研",
+        "type": "sound",
+        "name": "newShi3",
+        "md5": "f821efe2e15d6b7e9258a5a1b2d79bf3.wav"
+    },
+    {
+        "target": "疑似防災科研",
+        "type": "sound",
+        "name": "newShi4",
+        "md5": "9d32fb3d8f053f9d38af9b4125d238bf.wav"
+    },
+    {
+        "target": "疑似防災科研",
+        "type": "sound",
+        "name": "newShi5",
+        "md5": "f0eccaf0dae87cb74f9bd27d27e3c5f1.wav"
+    },
+    {
+        "target": "疑似防災科研",
+        "type": "sound",
+        "name": "newShi6",
+        "md5": "43c1927b88049e83cb01670fc0dfcfed.wav"
+    },
+    {
+        "target": "疑似ソフト内処理",
+        "type": "costume",
+        "name": "コスチューム1",
+        "md5": "576aeb8905e0b5685794e01ca28d417a.svg"
+    },
+    {
+        "target": "観測点データ作成",
+        "type": "costume",
+        "name": "1",
+        "md5": "576aeb8905e0b5685794e01ca28d417a.svg"
+    },
+    {
+        "target": "ズーム制御",
+        "type": "costume",
+        "name": "コスチューム1",
+        "md5": "91223aa32e565265e90daf5e427a5795.svg"
+    },
+    {
+        "target": "地名",
+        "type": "costume",
+        "name": "コスチューム1",
+        "md5": "576aeb8905e0b5685794e01ca28d417a.svg"
+    },
+    {
+        "target": "履歴",
+        "type": "costume",
+        "name": "コスチューム1",
+        "md5": "576aeb8905e0b5685794e01ca28d417a.svg"
+    }
+]

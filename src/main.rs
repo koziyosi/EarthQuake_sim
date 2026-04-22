@@ -1,0 +1,272 @@
+mod engine;
+
+use macroquad::prelude::*;
+use macroquad::audio::{load_sound, play_sound_once};
+use serde::{Serialize, Deserialize};
+use engine::{Engine, FaultPlane};
+
+fn conf() -> Conf {
+    Conf {
+        window_title: "Earthquake Simulation Pro (FHD)".to_owned(),
+        window_width: 1920,
+        window_height: 1080,
+        fullscreen: false,
+        ..Default::default()
+    }
+}
+
+fn lat_lon_to_scratch(lat: f64, lon: f64, center_lat: f64, center_lon: f64, zoom: f32) -> Vec2 {
+    let dx = (lon - center_lon) as f32 * 150.0 * zoom; // FHD用にスケール調整
+    let dy = (lat - center_lat) as f32 * 180.0 * zoom;
+    Vec2::new(dx, dy)
+}
+
+fn scratch_to_screen(sx: f32, sy: f32) -> Vec2 {
+    let x = sx + screen_width() / 2.0;
+    let y = screen_height() / 2.0 - sy;
+    Vec2::new(x, y)
+}
+
+fn get_shindo_color(intensity: f64) -> Color {
+    if intensity < 0.5 { return Color::from_rgba(40, 40, 60, 255); }
+    if intensity < 1.5 { return Color::from_rgba(0, 150, 255, 255); }
+    if intensity < 2.5 { return Color::from_rgba(0, 255, 100, 255); }
+    if intensity < 3.5 { return Color::from_rgba(255, 255, 0, 255); }
+    if intensity < 4.5 { return Color::from_rgba(255, 120, 0, 255); }
+    if intensity < 5.5 { return Color::from_rgba(255, 0, 0, 255); }
+    if intensity < 6.5 { return Color::from_rgba(150, 0, 0, 255); }
+    Color::from_rgba(255, 0, 255, 255)
+}
+
+#[derive(Serialize, Deserialize)]
+struct SimulationData {
+    travel_time_table: Vec<f32>,
+    arv_data: Vec<f32>,
+}
+
+#[derive(Deserialize)]
+struct Coastline(Vec<Vec<[f32; 2]>>);
+
+struct CoastlineLatLon(Vec<Vec<[f64; 2]>>);
+
+struct Station {
+    id: usize,
+    x: f32,
+    y: f32,
+    arv: f32,
+    current_shindo: f32,
+    p_wave_time: f32,
+    s_wave_time: f32,
+}
+
+#[macroquad::main(conf)]
+async fn main() {
+    let engine = Engine::new();
+    // 資産のロード
+    let ui_tex = load_texture("assets/ui_assets.png").await.expect("Failed to load UI assets");
+    ui_tex.set_filter(FilterMode::Linear);
+    let chime = load_sound("assets/chime_std.wav").await.expect("Failed to load chime");
+
+    // 海岸線データのロードと緯度経度への事前変換
+    let coastline_str = std::fs::read_to_string("assets/coastline.json").expect("Failed to load coastline");
+    let coastline_raw: Coastline = serde_json::from_str(&coastline_str).unwrap_or(Coastline(vec![]));
+    
+    let mut coastline = CoastlineLatLon(vec![]);
+    let scale_val = 0.240048;
+    let sprite_x = -70.3868;
+    let sprite_y = -10.2063;
+
+    for segment in coastline_raw.0 {
+        let mut new_segment = vec![];
+        for p in segment {
+            let stage_x = (p[0] - 240.0) * scale_val + sprite_x;
+            let stage_y = (180.0 - p[1]) * scale_val + sprite_y;
+            let lon = (stage_x / 150.0 + 138.0) as f64;
+            let lat = (stage_y / 180.0 + 36.0) as f64;
+            new_segment.push([lat, lon]);
+        }
+        coastline.0.push(new_segment);
+    }
+    
+    let mut fault = FaultPlane {
+        lat: 35.0,
+        lon: 135.0,
+        depth: 10.0,
+        mw: 8.5,
+        strike: 220.0,
+        dip: 30.0,
+    };
+
+    let mut cam_lat = 36.0;
+    let mut cam_lon = 138.0;
+    let mut zoom = 1.0f32;
+    let mut start_time = get_time();
+
+    loop {
+        // --- Input ---
+        if is_mouse_button_down(MouseButton::Right) {
+            let delta = mouse_delta_position();
+            // 画面サイズ 1920x1080 に対して 1度 = 150x180ピクセル
+            // deltaは 0.0〜1.0 の正規化座標なので、画面幅/高さでスケーリング
+            cam_lon -= (delta.x * (screen_width() / (150.0 * zoom))) as f64;
+            cam_lat += (delta.y * (screen_height() / (180.0 * zoom))) as f64;
+        }
+
+        let wheel = mouse_wheel();
+        if wheel.1 != 0.0 {
+            let mouse_pos = mouse_position();
+            let sw = screen_width();
+            let sh = screen_height();
+            
+            // ズーム前のマウス位置の緯度経度を計算
+            let mx = (mouse_pos.0 - sw / 2.0) / zoom as f32;
+            let my = (sh / 2.0 - mouse_pos.1) / zoom as f32;
+            let lon_before = mx / 150.0 + cam_lon as f32;
+            let lat_before = my / 180.0 + cam_lat as f32;
+
+            let zoom_factor = 1.05f32.powf(wheel.1.clamp(-3.0, 3.0));
+            zoom *= zoom_factor;
+            zoom = zoom.clamp(0.1, 100.0);
+
+            // ズーム後のマウス位置が同じ緯度経度を指すようにカメラを調整
+            let mx_after = (mouse_pos.0 - sw / 2.0) / zoom as f32;
+            let my_after = (sh / 2.0 - mouse_pos.1) / zoom as f32;
+            let lon_after = mx_after / 150.0 + cam_lon as f32;
+            let lat_after = my_after / 180.0 + cam_lat as f32;
+
+            cam_lon += (lon_before - lon_after) as f64;
+            cam_lat += (lat_before - lat_after) as f64;
+        }
+
+        if is_key_pressed(KeyCode::Space) {
+            start_time = get_time();
+            play_sound_once(&chime);
+        }
+
+        if is_key_down(KeyCode::Up) { fault.mw += 0.01; }
+        if is_key_down(KeyCode::Down) { fault.mw -= 0.01; }
+        if is_key_down(KeyCode::Left) { fault.strike -= 1.0; }
+        if is_key_down(KeyCode::Right) { fault.strike += 1.0; }
+        if is_key_down(KeyCode::W) { fault.dip += 0.5; }
+        if is_key_down(KeyCode::S) { fault.dip -= 0.5; }
+        fault.mw = fault.mw.clamp(1.0, 9.5);
+        fault.dip = fault.dip.clamp(0.0, 90.0);
+
+        clear_background(BLACK);
+
+        // 日本地図（海岸線）の描画 - カメラ同期
+        let coastline_color = Color::new(0.4, 0.5, 0.4, 1.0);
+        let line_thickness = 2.0 * zoom.sqrt().clamp(0.5, 2.0);
+        for segment in &coastline.0 {
+            for i in 0..segment.len() - 1 {
+                let p1 = segment[i];
+                let p2 = segment[i + 1];
+                
+                let s1 = lat_lon_to_scratch(p1[0], p1[1], cam_lat, cam_lon, zoom);
+                let pos1 = scratch_to_screen(s1.x, s1.y);
+                let s2 = lat_lon_to_scratch(p2[0], p2[1], cam_lat, cam_lon, zoom);
+                let pos2 = scratch_to_screen(s2.x, s2.y);
+
+                draw_line(pos1.x, pos1.y, pos2.x, pos2.y, line_thickness, coastline_color);
+            }
+        }
+
+        let elapsed = (get_time() - start_time) as f32;
+
+        for (i, p) in engine.points.iter().enumerate() {
+            let dist = Engine::get_distance_to_fault(p.lat, p.lon, &fault);
+            let (p_time, s_time) = engine.get_travel_time(fault.depth, dist);
+            
+            let mut color = Color::from_rgba(60, 60, 80, 80);
+            let mut size = 2.0;
+            let mut glow = false;
+
+            if elapsed >= s_time {
+                let intensity = engine.calculate_intensity(&fault, i, dist);
+                color = get_shindo_color(intensity);
+                size = 6.0;
+                glow = true;
+            } else if elapsed >= p_time {
+                color = Color::from_rgba(100, 100, 255, 180);
+                size = 3.5;
+            }
+
+            let sc_pos = lat_lon_to_scratch(p.lat, p.lon, cam_lat, cam_lon, zoom);
+            let pos = scratch_to_screen(sc_pos.x, sc_pos.y);
+            
+            if pos.x >= -50.0 && pos.x <= screen_width() + 50.0 && pos.y >= -50.0 && pos.y <= screen_height() + 50.0 {
+                if glow {
+                    draw_circle(pos.x, pos.y, size * 1.8, Color::new(color.r, color.g, color.b, 0.3));
+                    
+                    // 震度アイコンの描画
+                    let intensity = engine.calculate_intensity(&fault, i, dist);
+                    let idx = match intensity {
+                        i if i >= 6.5 => Some(8), // 7
+                        i if i >= 6.0 => Some(7), // 6+
+                        i if i >= 5.5 => Some(6), // 6-
+                        i if i >= 5.0 => Some(5), // 5+
+                        i if i >= 4.5 => Some(4), // 5-
+                        i if i >= 3.5 => Some(3), // 4
+                        i if i >= 2.5 => Some(2), // 3
+                        i if i >= 1.5 => Some(1), // 2
+                        i if i >= 0.5 => Some(0), // 1
+                        _ => None
+                    };
+
+                    if let Some(id) = idx {
+                        let row = id / 3;
+                        let col = id % 3;
+                        let src_rect = Rect::new(40.0 + col as f32 * 130.0, 40.0 + row as f32 * 130.0, 64.0, 64.0); // 調整: 50.0 -> 64.0
+                        draw_texture_ex(&ui_tex, pos.x - 12.0, pos.y - 12.0, WHITE, DrawTextureParams {
+                            dest_size: Some(Vec2::new(24.0, 24.0)),
+                            source: Some(src_rect),
+                            ..Default::default()
+                        });
+                    }
+                } else {
+                    draw_circle(pos.x, pos.y, size, color);
+                }
+            }
+        }
+
+        let (l, w) = engine::Engine::get_dimensions(fault.mw);
+        let epi_sc = lat_lon_to_scratch(fault.lat, fault.lon, cam_lat, cam_lon, zoom);
+        let epi_pos = scratch_to_screen(epi_sc.x, epi_sc.y);
+        
+        let l_px = l as f32 * 0.4 * zoom;
+        
+        draw_poly_lines(epi_pos.x, epi_pos.y, 4, l_px.max(5.0), fault.strike + 45.0, 2.0, WHITE);
+
+        // --- UI Panels ---
+        // Top Info Panel
+        let panel_width = 500.0;
+        let panel_height = 280.0;
+        draw_rectangle(20.0, 20.0, panel_width, panel_height, Color::from_rgba(0, 0, 0, 180));
+        draw_rectangle_lines(20.0, 20.0, panel_width, panel_height, 2.0, Color::from_rgba(100, 100, 100, 255));
+        
+        draw_text("EARTHQUAKE FINITE FAULT SIM", 40.0, 60.0, 32.0, WHITE);
+        draw_line(40.0, 75.0, 40.0 + panel_width - 40.0, 75.0, 1.0, GRAY);
+        
+        draw_text(&format!("Mw: {:.2}", fault.mw), 40.0, 110.0, 30.0, YELLOW);
+        draw_text("Moment Magnitude", 180.0, 110.0, 20.0, LIGHTGRAY);
+        
+        draw_text(&format!("Fault: {:.1}km x {:.1}km", l, w), 40.0, 145.0, 25.0, WHITE);
+        draw_text(&format!("Strike: {:.0}° / Dip: {:.0}°", fault.strike, fault.dip), 40.0, 175.0, 25.0, SKYBLUE);
+        draw_text(&format!("Epicenter Depth: {:.1} km", fault.depth), 40.0, 205.0, 25.0, SKYBLUE);
+        draw_text(&format!("Zoom Level: {:.2}x", zoom), 40.0, 230.0, 20.0, GRAY);
+        
+        let time_color = if elapsed > 0.0 { WHITE } else { GRAY };
+        draw_text(&format!("Elapsed Time: {:.1}s", elapsed), 40.0, 265.0, 40.0, time_color);
+
+        // EEW Banner
+        if elapsed > 0.0 && elapsed < 10.0 {
+            // 最初の10秒間EEW表示
+            draw_rectangle(0.0, 0.0, screen_width(), 60.0, Color::from_rgba(200, 0, 0, 200));
+            draw_text("緊急地震速報 (警報)", screen_width() / 2.0 - 150.0, 42.0, 40.0, WHITE);
+        }
+
+        draw_text("Controls: Arrow keys (Mw/Strike), W/S (Dip), SPACE (Reset), Right-Drag (Pan), Wheel (Zoom)", 20.0, screen_height() - 20.0, 20.0, DARKGRAY);
+
+        next_frame().await
+    }
+}
