@@ -43,7 +43,8 @@ fn get_shindo_color(intensity: f64) -> Color {
     Color::from_rgba(255, 0, 255, 255)
 }
 
-fn handle_input(cam_lat: &mut f64, cam_lon: &mut f64, zoom: &mut f32, fault: &mut FaultPlane, start_time: &mut f64, chime: &macroquad::audio::Sound) {
+fn handle_input(cam_lat: &mut f64, cam_lon: &mut f64, zoom: &mut f32, fault: &mut FaultPlane, start_time: &mut f64, chime: &macroquad::audio::Sound) -> bool {
+    let mut fault_changed = false;
     if is_mouse_button_down(MouseButton::Right) {
         let delta = mouse_delta_position();
         *cam_lon -= (delta.x * (screen_width() / (LON_SCALE * *zoom))) as f64;
@@ -79,14 +80,25 @@ fn handle_input(cam_lat: &mut f64, cam_lon: &mut f64, zoom: &mut f32, fault: &mu
         play_sound_once(chime);
     }
 
+    let old_mw = fault.mw;
+    let old_strike = fault.strike;
+    let old_dip = fault.dip;
+
     if is_key_down(KeyCode::Up) { fault.mw += 0.01; }
     if is_key_down(KeyCode::Down) { fault.mw -= 0.01; }
     if is_key_down(KeyCode::Left) { fault.strike -= 1.0; }
     if is_key_down(KeyCode::Right) { fault.strike += 1.0; }
     if is_key_down(KeyCode::W) { fault.dip += 0.5; }
     if is_key_down(KeyCode::S) { fault.dip -= 0.5; }
+
     fault.mw = fault.mw.clamp(1.0, 9.5);
     fault.dip = fault.dip.clamp(0.0, 90.0);
+
+    if fault.mw != old_mw || fault.strike != old_strike || fault.dip != old_dip {
+        fault_changed = true;
+    }
+
+    fault_changed
 }
 
 fn draw_coastline(coastline: &CoastlineLatLon, cam_lat: f64, cam_lon: f64, zoom: f32) {
@@ -107,21 +119,41 @@ fn draw_coastline(coastline: &CoastlineLatLon, cam_lat: f64, cam_lon: f64, zoom:
     }
 }
 
-fn draw_stations(engine: &Engine, fault: &FaultPlane, cam_lat: f64, cam_lon: f64, zoom: f32, elapsed: f32, ui_tex: &Texture2D) {
+#[derive(Clone)]
+struct StationCache {
+    p_time: f32,
+    s_time: f32,
+    intensity: f64,
+}
+
+fn update_station_cache(engine: &Engine, fault: &FaultPlane, cache: &mut Vec<StationCache>) {
+    let (l, w) = engine::Engine::get_dimensions(fault.mw);
     for (i, p) in engine.points.iter().enumerate() {
-        let dist = Engine::get_distance_to_fault(p.lat, p.lon, fault);
+        let dist = Engine::get_distance_to_fault(p.lat, p.lon, fault, l, w);
         let (p_time, s_time) = engine.get_travel_time(fault.depth, dist);
+        let intensity = engine.calculate_intensity(fault, i, dist);
+
+        cache[i] = StationCache {
+            p_time,
+            s_time,
+            intensity,
+        };
+    }
+}
+
+fn draw_stations(engine: &Engine, cache: &[StationCache], cam_lat: f64, cam_lon: f64, zoom: f32, elapsed: f32, ui_tex: &Texture2D) {
+    for (i, p) in engine.points.iter().enumerate() {
+        let c = &cache[i];
 
         let mut color = Color::from_rgba(60, 60, 80, 80);
         let mut size = 2.0;
         let mut glow = false;
 
-        if elapsed >= s_time {
-            let intensity = engine.calculate_intensity(fault, i, dist);
-            color = get_shindo_color(intensity);
+        if elapsed >= c.s_time {
+            color = get_shindo_color(c.intensity);
             size = 6.0;
             glow = true;
-        } else if elapsed >= p_time {
+        } else if elapsed >= c.p_time {
             color = Color::from_rgba(100, 100, 255, 180);
             size = 3.5;
         }
@@ -133,8 +165,7 @@ fn draw_stations(engine: &Engine, fault: &FaultPlane, cam_lat: f64, cam_lon: f64
             if glow {
                 draw_circle(pos.x, pos.y, size * 1.8, Color::new(color.r, color.g, color.b, 0.3));
 
-                let intensity = engine.calculate_intensity(fault, i, dist);
-                let idx = match intensity {
+                let idx = match c.intensity {
                     i if i >= 6.5 => Some(8), // 7
                     i if i >= 6.0 => Some(7), // 6+
                     i if i >= 5.5 => Some(6), // 6-
@@ -217,7 +248,7 @@ async fn main() {
     let chime = load_sound("assets/chime_std.wav").await.expect("Failed to load chime");
 
     // 海岸線データのロードと緯度経度への事前変換
-    let coastline_str = std::fs::read_to_string("assets/coastline.json").expect("Failed to load coastline");
+    let coastline_str = macroquad::file::load_string("assets/coastline.json").await.expect("Failed to load coastline");
     let coastline_raw: Coastline = serde_json::from_str(&coastline_str).unwrap_or(Coastline(vec![]));
     
     let mut coastline = CoastlineLatLon(vec![]);
@@ -251,15 +282,22 @@ async fn main() {
     let mut zoom = 1.0f32;
     let mut start_time = get_time();
 
+    let mut station_cache = vec![StationCache { p_time: 0.0, s_time: 0.0, intensity: 0.0 }; engine.points.len()];
+    update_station_cache(&engine, &fault, &mut station_cache);
+
     loop {
-        handle_input(&mut cam_lat, &mut cam_lon, &mut zoom, &mut fault, &mut start_time, &chime);
+        let fault_changed = handle_input(&mut cam_lat, &mut cam_lon, &mut zoom, &mut fault, &mut start_time, &chime);
+
+        if fault_changed {
+            update_station_cache(&engine, &fault, &mut station_cache);
+        }
 
         let elapsed = (get_time() - start_time) as f32;
 
         clear_background(BLACK);
 
         draw_coastline(&coastline, cam_lat, cam_lon, zoom);
-        draw_stations(&engine, &fault, cam_lat, cam_lon, zoom, elapsed, &ui_tex);
+        draw_stations(&engine, &station_cache, cam_lat, cam_lon, zoom, elapsed, &ui_tex);
         draw_epicenter(&fault, cam_lat, cam_lon, zoom);
         draw_ui(&fault, zoom, elapsed);
 
