@@ -30,6 +30,10 @@ pub struct Engine {
     pub sim_data: SimulationData,
 }
 
+const KM_PER_LAT_DEGREE: f64 = 111.19;
+const KM_PER_LON_DEGREE_EQUATOR: f64 = 111.32;
+const TRAVEL_TIME_TABLE_STRIDE: usize = 472;
+
 impl Engine {
     pub fn new() -> Self {
         let points_str = include_str!("../assets/points.json");
@@ -47,13 +51,11 @@ impl Engine {
     }
 
     // 断層面までの最短距離 (Drup)
-    pub fn get_distance_to_fault(p_lat: f64, p_lon: f64, fault: &FaultPlane) -> f64 {
-        let (l, w) = Self::get_dimensions(fault.mw);
-        
+    pub fn get_distance_to_fault(p_lat: f64, p_lon: f64, fault: &FaultPlane, l: f64, w: f64) -> f64 {
         // 座標変換: 地点(p)を断層中心を原点とする局所座標系(km)に変換
         let avg_lat = (p_lat + fault.lat) / 2.0;
-        let dy = (p_lat - fault.lat) * 111.19;
-        let dx = (p_lon - fault.lon) * 111.32 * avg_lat.to_radians().cos();
+        let dy = (p_lat - fault.lat) * KM_PER_LAT_DEGREE;
+        let dx = (p_lon - fault.lon) * KM_PER_LON_DEGREE_EQUATOR * avg_lat.to_radians().cos();
         let dz = -fault.depth; // 深度 (z軸は上向き正とする)
 
         // Strike回転 (Z軸まわり)
@@ -84,11 +86,11 @@ impl Engine {
     }
 
     pub fn get_travel_time(&self, depth: f64, dist: f64) -> (f32, f32) {
-        // Scratchのロジック: round(depth/10) * 472 + (dist*2)
+        let max_dist_idx = (TRAVEL_TIME_TABLE_STRIDE / 2) - 1; // 235
         let depth_idx = (depth / 10.0).round() as usize;
-        let dist_idx = (dist.round() as usize).min(235); // 472/2 = 236個分
+        let dist_idx = (dist.round() as usize).min(max_dist_idx);
         
-        let base_idx = depth_idx * 472;
+        let base_idx = depth_idx * TRAVEL_TIME_TABLE_STRIDE;
         let p_idx = base_idx + dist_idx * 2;
         let s_idx = p_idx + 1;
         
